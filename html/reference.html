@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/styles_ref.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="../img/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../img/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../img/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../img/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../img/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../img/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../img/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../img/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="../img/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+  <link rel="manifest" href="../js/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../img/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+    <title>Reference</title>
+</head>
+<body>
+    <!--navigation bar-->
+    <div id="CounterVisitor"></div>
+    <div class="topnav" id="navbar">
+        <a href="../html/index.html" id="logo" style="float: left;"><img id="navimg" src="../img/logo.png" width="70"></a>
+        <span style="padding-right: 10px;"></span>
+        <a href="../html/index.html#contact" style="padding-right: 8vw;">Contact Me</a>
+        <a href="../html/reference.html">Reference</a>
+        <a href="../html/gallery.html">Gallery</a>
+        <a href="../html/index.html#main2">About Me</a>
+        <a href="javascript:void(0);" class="icon" onclick="navfunc()">
+          <i class="fa fa-bars"></i></a>
+        </div>
+    </div-->
+    <section class="bgimg-1">
+      <p class="content">
+        <br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <div class="pad1"><br></div>
+        <div class="pad2"><br><br><br></div>
+        <div class="centered"><h1>R E F<br/> E R E<br/> N C E<br/> . </h1></div>
+        <div class="pad1"><br></div>
+        <div class="pad2"><br><br><br></div>
+        <br><br>
+        <br><br>
+      </p>
+      <button class="scrollbutt fixelm" onclick="gotofunc1()"><i class="fa fa-angle-double-down"></i> </button>
+    </section>
+    <!--Content-->
+    <div id="main">
+      <form id="frm1">
+      <pre>Enter Your Name:</pre> <input type="text" name="name" value="">
+      <br><br><br><br>
+      <pre>Enter Language:</pre><input type="text" name="skill" value="">
+      <br><br><br><br>
+      <pre>Choose Proficiency:</pre> <select name="prof">
+        <option value="Beginner">Beginner</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Proficient">Proficient</option>
+      </select><br><br><br><br>
+      <pre>Additional Comments:</pre> <input type="text" name="comments" value="">
+      <br><br><br><br>
+      <button type="button" class="footerbutton" onclick="tabfunc();return false">Submit</button>
+      </form>
+      <br>
+      <br><br>
+      <br>
+      <button type="button" class="footerbutton" onclick="updatetab()">Display Table</button>
+      <div style="overflow-x:auto;">
+        <br>
+        <br><br>
+        <br>
+      <table id="myTable">
+        <thead>
+          <td colspan="4">Previous References</td>
+        </thead>
+        <thead>
+          <td>Name</td>
+          <td>Skill</td>
+          <td>Level</td>
+          <td>Comment</td>
+        </thead>
+      </table>
+      </div>
+      <br><br><br><br>
+    </div>
+    <section class="bgimg-2">
+      </section>
+    <!--Footer-->
+    <div class="footer">
+      <button class="footerbutton" onclick="gotofunc()"> Go To Top <i class="fa fa-angle-double-up"></i></button>
+      <br><br><br>
+      <div class="ficons">
+        <a href="https://www.facebook.com/profile.php?id=100008311955597" target="_blank"><i class="fa fa-facebook-official sm"></i></a>
+			<a href="https://www.instagram.com/Aakashj24/" target="_blank"><i class="fa fa-instagram sm"></i></a>
+			<a href="mailto: aakash.jain@students.iiit.ac.in? subject=Website Query" target="_blank"><i class="fa fa-envelope sm"></i></a>
+			<a href="https://github.com/AakashJ2412" target="_blank"><i class="fa fa-github sm"></i></a>
+      </div>
+      <br><br>
+    <p class="ftext"> Developed By Aakash Jain</p>
+    </div>
+</body>
+    
+<script src="../js/scriptref.js"></script>
+</html>
